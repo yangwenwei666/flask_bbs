@@ -6,8 +6,8 @@ class Dev:
     MAIL_PROT = 465
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
-    MAIL_USERNAME = 'xiuqianli_2015@163.com'
-    MAIL_PASSWORD = ''
+    MAIL_USERNAME = 'm13413019456@163.com'
+    MAIL_PASSWORD = 'yangwenwei423'
     MAIL_DEBUG = True
     MAIL_SUBJECT_PREFIX = '[PyFly]-'
     WTF_CSRF_ENABLED = False
@@ -17,9 +17,9 @@ class Dev:
 
     USE_CACHE = True
     CACHE_TYPE = 'redis'
-    CACHE_REDIS_HOST = '172.16.1.202'
+    CACHE_REDIS_HOST = '127.0.0.1'
     CACHE_REDIS_PORT = 6379
-    CACHE_REDIS_PASSWORD = '456123'
+    # CACHE_REDIS_PASSWORD = ''
     CACHE_REDIS_DB = '0'
 
 

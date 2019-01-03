@@ -49,7 +49,7 @@ def init_extensions(app):
     configure_uploads(app, upload_photos)
     mail.init_app(app)
     admin.init_app(app)
-    mongo.init_app(app, "MONGO")
+    mongo.init_app(app)
     oauth.init_app(app)
     login_manager.init_app(app)
     if app.config.get('USE_CACHE', False):
